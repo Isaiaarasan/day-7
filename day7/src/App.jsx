@@ -8,6 +8,7 @@ import {BrowserRouter , Routes,Route} from 'react-router-dom'
 import UseState from './Components/FunctionalComponent/Hooks/UseState'
 import UseEffect from './Components/FunctionalComponent/Hooks/UseEffect'
 import UseEffectApi from './Components/FunctionalComponent/Hooks/UseEffectAPI'
+import UseEffectAPIimage from './Components/FunctionalComponent/Hooks/UseEffectApIimage'
 function App() {
   return (
   
