@@ -13,7 +13,7 @@ import UseEffectAPIimage from './Components/FunctionalComponent/Hooks/UseEffectA
 import UseRef from './Components/FunctionalComponent/Hooks/UseRef';
 import UseMemo from './Components/FunctionalComponent/Hooks/UseMemo';
 import UseCallback from './Components/FunctionalComponent/Hooks/UseCallback';
-import UseEffectAPIimagee from './css/UseEffectAPIimagee';
+
 
 function App() {
   return (
