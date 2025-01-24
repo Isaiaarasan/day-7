@@ -32,6 +32,7 @@ const Navbar = () => {
                         <li><Link to="/useimg" className="link">useAPIimg</Link></li>
                         <li><Link to="/useref" className="link">useRef</Link></li>
                         <li><Link to="/usememo" className="link">useMemo</Link></li>
+                        <li><Link to="/reactlifecycle" className="link">ReactLifecycle</Link></li>
                         <li><Link to="/usecallback" className="link">useCallback</Link></li>
                     </ul>)}
                     </div>
