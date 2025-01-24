@@ -8,7 +8,7 @@ import Signup from './Components/FunctionalComponent/Signup';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import UseState from './Components/FunctionalComponent/Hooks/UseState';
 import UseEffect from './Components/FunctionalComponent/Hooks/UseEffect';
-import UseEffectApi from './Components/FunctionalComponent/Hooks/UseEffectAPI';
+import UseEffectApi from './Components/FunctionalComponent/Hooks/UseEffectAPI'; 
 import UseEffectAPIimage from './Components/FunctionalComponent/Hooks/UseEffectAPIimage';
 import UseRef from './Components/FunctionalComponent/Hooks/UseRef';
 import UseMemo from './Components/FunctionalComponent/Hooks/UseMemo';
