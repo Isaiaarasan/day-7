@@ -14,6 +14,7 @@ import UseRef from './Components/FunctionalComponent/Hooks/UseRef';
 import UseMemo from './Components/FunctionalComponent/Hooks/UseMemo';
 import UseCallback from './Components/FunctionalComponent/Hooks/UseCallback';
 import ReactLifecycleMethods from './Components/ClassComponents/ReactLifecycle';
+import UseContext from './Components/FunctionalComponent/Hooks/UseContext';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/useref" element={<UseRef />} />
         <Route path="/usememo" element={<UseMemo />} />
         <Route path="/usecallback" element={<UseCallback />} />
+        <Route path="/usecontext" element={<UseContext />} />
         <Route path="/reactlifecycle" element={<ReactLifecycleMethods />} />
         <Route path="*" element={<Navigate to="/home" />} />
       </Routes>
