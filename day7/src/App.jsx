@@ -9,10 +9,11 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import UseState from './Components/FunctionalComponent/Hooks/UseState';
 import UseEffect from './Components/FunctionalComponent/Hooks/UseEffect';
 import UseEffectApi from './Components/FunctionalComponent/Hooks/UseEffectAPI'; 
-import UseEffectAPIimage from './Components/FunctionalComponent/Hooks/UseEffectAPIimage';
+import UseEffectAPIimage from './Components/FunctionalComponent/Hooks/UseEffectApIimage';
 import UseRef from './Components/FunctionalComponent/Hooks/UseRef';
 import UseMemo from './Components/FunctionalComponent/Hooks/UseMemo';
 import UseCallback from './Components/FunctionalComponent/Hooks/UseCallback';
+import UseEffectAPIimagee from './css/UseEffectAPIimagee';
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/useeffect" element={<UseEffect />} />
         <Route path="/useeffectapi" element={<UseEffectApi />} />
-        <Route path="/useimg" element={<UseEffectAPIimage />} />
+        <Route path="/useimg" element={<UseEffectAPIimage/>} />
         <Route path="/useref" element={<UseRef />} />
         <Route path="/usememo" element={<UseMemo />} />
         <Route path="/usecallback" element={<UseCallback />} />
